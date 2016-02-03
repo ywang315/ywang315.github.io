@@ -1,0 +1,114 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+.page-body {
+	margin: auto;
+	width: 700px;
+	border: 1px ;
+	padding: 10px;
+}
+.profiles {
+	width: 700px;
+	overflow:hidden;
+}
+
+.profile-pic {
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+
+.profile-info{
+	height: 270px;
+}
+
+.profile-info h3{
+	font-style: italic;
+	line-height: 50%;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 40px;
+}
+
+.profile-info a:link {
+	text-decoration: none;
+	color: black;
+}
+.profile-info a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.profile-info a:hover{
+	text-decoration: underline;
+	color:blue;
+}
+
+.profile-info a:active {
+	text-decoration: underline;
+	color: red;
+}
+
+
+.content-body {
+	clear: left;
+}
+
+.tag {
+	display: inline-block;
+	width: 80px;
+	font-weight: bold;
+}
+
+.contact-info{
+	clear:right;
+}
+
+ul.contact-info {
+	list-style-type: none;
+}
+.contact-info li {
+	line-height: 150%;
+}
+
+#courses {
+	-webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
+
+    line-height: 125%;
+    list-style-type: none;
+
+	}
+
+.name-left {
+	display: inline-block;
+	font-style: italic;
+	width: 250px;
+}
+.time-center {
+	display: inline-block;
+	width: 200px;
+	margin-left: 20px;
+	text-align: center;
+}
+.gpa-right {
+	display: inline-block;
+	width: 150px;
+	margin-left: 50px;
+}
+
+p.school {
+	line-height: 200%;
+	font-size: larger;
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+
+
+
+
